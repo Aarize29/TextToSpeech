@@ -1,0 +1,88 @@
+.navigate{
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #353533;
+    color: #f7c578;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navigate:hover{
+    background-color: #50504d;
+    color: #f7bc63;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main2 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #353533;
+    font-family: 'Roboto', sans-serif;
+}
+.main2 .input {
+    display: flex;
+    margin-top: 0;
+
+}
+.main2 .input h1{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2 .input .mic div{
+    color: red;
+}
+.mic{
+    cursor: pointer;
+}
+@media screen and (max-width: 1110px){
+
+    .input textarea{
+        width: 600px;
+        height: 250px;
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width: 750px){
+    .main2 h2{
+        font-size: 1.5rem;
+    }
+    .input textarea{
+        width: 500px;
+        height: 200px;
+        font-size: 0.9rem;
+    }
+    
+}
+    
+
+    
+@media screen and (max-width: 550px){
+    .main2 h2{
+        font-size: 1.3rem;
+    }
+    .input textarea{
+        width: 300px;
+        height: 150px;
+        font-size: 0.8rem;
+    }
+    
+}
+    
+@media screen and (max-width: 350px){
+    .main2 h2{
+        font-size: 1rem;
+    }
+    .input textarea{
+        width: 200px;
+        height: 90px;
+        font-size: 0.6rem;
+    }
+    
+}
