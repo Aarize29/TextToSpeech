@@ -1,7 +1,7 @@
 .info{
     font-size: 1.5em;
     font-weight: bold;
-    color: #2c2b2b;
+    color: #f7c578;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -12,7 +12,25 @@
     font-family: 'Roboto', sans-serif;
     
 }
+.darkInfo{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #757f9b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;  
+}
 .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkLinks{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,8 +42,18 @@
     font-weight: bold;
     margin: 0 10px;
 }
+.darkLinks a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 10px;
+}
 .links a:hover{
-    color: #2c2a27;
+    color: #f7c578;
+}
+.darkLinks a:hover{
+    color: #757f9b;
 }
 @media screen and (max-width: 750px){
     .info{
