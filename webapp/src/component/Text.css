@@ -8,11 +8,31 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.darkNavigate {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #3c3f4e;
+    color: #757f9b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
 .navigate:hover{
     background-color: #50504d;
     color: #f7bc63;
 }
+.darkNavigate:hover{
+    background-color: #757f9b;
+    color: #c8cdd9;
+}
 .main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.darkMain2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,15 +41,29 @@
 .main2 h2{
     font-size: 2rem;
     font-weight: bolder;
-    color: #353533;
+    color: #f7c578;
+    font-family: 'Roboto', sans-serif;
+}
+.darkMain2 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #757f9b;
     font-family: 'Roboto', sans-serif;
 }
 .main2 .input {
     display: flex;
     margin-top: 0;
-
+}
+.darkMain2 .input {
+    display: flex;
+    margin-top: 0;
 }
 .main2 .input h1{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkMain2 .input h1{
     display:  flex;
     justify-content: center;
     align-items: center;
@@ -37,9 +71,13 @@
 .main2 .input .mic div{
     color: red;
 }
+.darkMain2 .input .mic div{
+    color: red;
+}
 .mic{
     cursor: pointer;
 }
+
 @media screen and (max-width: 1110px){
 
     .input textarea{
