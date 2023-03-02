@@ -11,15 +11,37 @@
     align-items: center;
     margin: 1rem 0;
 }
+.darkMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
 .main h2{
     font-size: 2rem;
     font-weight: bolder;
-    color: #353533;
+    color: #f7c578;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+.darkMain h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #757f9b;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     font-family: 'Roboto', sans-serif;
 }
 .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.darkInput {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +62,24 @@
     margin-bottom: 2rem;
     background-color: white;
 }
+.darkInput textarea{
+    width: 800px;
+    height: 350px;
+    border: 5px solid #a2aabe;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #a2aabe;
+    box-shadow: 0 0 10px #a2aabe;
+    margin-bottom: 2rem;
+    background-color: #4d536d;
+}
 .input textarea:focus{
+    outline: none;
+}
+.darkInput textarea:focus{
     outline: none;
 }
 .input button{
@@ -58,9 +97,28 @@
     cursor: pointer;
     transition: 0.5s;
 }
+.darkInput button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3c3f4e;
+    color: #757f9b;
+    box-shadow: 0 0 10px #3c3f4e;
+    cursor: pointer;
+    transition: 0.5s;
+}
 .input button:hover{
     background-color: #50504d;
     color: #f7bc63;
+}
+.darkInput button:hover{
+    background-color: #757f9b;
+    color: #c8cdd9;
 }
 @media screen and (max-width: 1130px){
 
